@@ -11,13 +11,13 @@
             <!-- esto es el nav principal de la pagina -->
             <nav>
                 <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/sobre-mi.html">Sobre mí</a></li>
-                    <li><a href="pages/creaciones.html">Creaciones</a></li>
-                    <li><a href="pages/taller.html">Taller</a></li>
-                    <li><a href="pages/suscripciones.html">Suscripciones</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                    <li><a href="pages/mi-cuenta.html">Mi Cuenta</a></li>
+                    <li><a href=",/index.html">Inicio</a></li>
+                    <li><a href="./pages/sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="./pages/creaciones.html">Creaciones</a></li>
+                    <li><a href="./pages/taller.html">Taller</a></li>
+                    <li><a href="./pages/suscripciones.html">Suscripciones</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                    <li><a href="./pages/mi-cuenta.html">Mi Cuenta</a></li>
                 </ul>
             </nav>
 
@@ -40,8 +40,23 @@
         </main>
 
         <footer>
-            <p>&copy; Plumme. Todos los derechos reservados.</p>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="./assets/logos/facebook.png" alt="Pagina de facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./assets/logos/instagram.png" alt="Pagina de instagram">
+                    </a>
+                </li>
+            </ul>
+            <p>&copy;<span id="year"></span>Plumme. Todos los Derechos Reservados</p>
         </footer>
-    
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script> 
     </body>
 </html>
