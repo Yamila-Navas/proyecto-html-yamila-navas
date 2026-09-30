@@ -33,7 +33,29 @@
             <section>
                 <h2>Mi Cuenta</h2>
                 <p>Crea tu cuenta en Plumme.</p>
-                <button>Crear cuenta</button>
+
+                <form action="" method="">
+                    <label for="user-name">Nombre:</label>
+                    <input type="text" id="user-name" name="name" required>
+
+                    <label for="user-last-name">Apellido:</label>
+                    <input type="text" id="user-last-name" name="last-name" required>
+
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" name="email" required>
+
+                    <label for="user-age">Edad:</label>
+                    <input type="number" id="user-age" name="age">
+
+                    <label for="user-phone">Número de telefono:</label>
+                    <input type="tel" id="user-phone" name="phone">
+
+                    <!-- Esto lo agrego solo porque lo requiere la actividad, entiendo que no pega en este formulario -->
+                    <label for="user-comment">Agrega un comentario:</label>
+                    <textarea id="user-comment" name="comment"></textarea>
+
+                    <button type="submit">Crear cuenta</button>
+                </form>
             </section>
         </main>
 
@@ -41,12 +63,12 @@
             <ul>
                 <li>
                     <a href="https://www.facebook.com/" target="_blank">
-                        <img src="../assets/logos/facebook.png" alt="Pagina de facebook">
+                        <img src="../assets/logos/facebook.png" alt="Ingresa a nuestra pagina de facebook">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/" target="_blank">
-                        <img src="../assets/logos/instagram.png" alt="Pagina de instagram">
+                        <img src="../assets/logos/instagram.png" alt="Ingresa a nuestra pagina de instagram">
                     </a>
                 </li>
             </ul>
