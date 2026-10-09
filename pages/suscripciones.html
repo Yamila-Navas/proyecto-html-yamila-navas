@@ -48,17 +48,17 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td scope="row">Básica</td>
+                            <th scope="row">Básica</th>
                             <td>Aplica a todos los cursos</td>
                             <td>10 USD</td>
                         </tr>
                         <tr>
-                            <td scope="row">Completa</td>
+                            <th scope="row">Completa</th>
                             <td>Todo lo anterior más contenido extra</td>
                             <td>12 USD</td>
                         </tr>
                         <tr>
-                            <td scope="row">Premium</td>
+                            <th scope="row">Premium</th>
                             <td>Todo lo anterior más descuentos y regalos en nuestra pastelería</td>
                             <td>15 USD</td>
                         </tr>
@@ -66,9 +66,11 @@
                 </table>
             </section>
             <section>
+                <h2>Solicitá tu suscripción</h2>
                 <form action="" method="post">
                     <label for="user-suscripcion">Elegí tu suscripción:</label>
                     <select name="suscripcion" id="user-suscripcion" required>
+                        <option value="" selected disabled>Seleccioná una opción</option>
                         <option value="basica">Básica</option>
                         <option value="completa">Completa</option>
                         <option value="premium">Premium</option>
